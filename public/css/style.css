@@ -1,0 +1,86 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.css");
+html{
+    line-height:1.15;
+    -webkit-text-size-adjust:100%
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0;
+    color: white;
+}
+a{
+    background-color:transparent
+}
+*,:after,:before{
+    box-sizing:border-box;
+    border:0 solid #e2e8f0
+}
+a{
+    color:inherit;
+    text-decoration:inherit
+}
+svg{
+    display:block;
+
+}
+.bg-white{--tw-bg-opacity: 1;
+    background-color:rgb(255 255 255 / var(--tw-bg-opacity))
+}
+#first-step{
+
+    width: 32vw;
+    height: 100vh;
+    background-color:#010409;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#first-step h1{
+    margin-bottom: 100%;
+}
+#second-step{
+    width: 37vw;
+    height: 100vh;
+    background-color: #0d1117;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#second-step #list-repo{
+    width: 25vw;
+    border-radius: 5px;
+}
+#second-step h1{
+    margin-bottom: 52%;
+}
+
+#third-step{
+    width: 61vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+
+#button_git{
+    border: 2px solid #36393f;
+    border-radius: 13px;
+    width: 20vw;
+    height: 7vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
